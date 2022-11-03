@@ -1,0 +1,17 @@
+var aluno = window.prompt("Digite o nome do aluno")
+var nota1 = Number.parseFloat(window.prompt("Digite a primeira nota"))
+var nota2 = Number.parseFloat(window.prompt("Digite a segunda nota"))
+var nota3 = Number.parseFloat(window.prompt("Digite a terceira nota"))
+
+var media = ((nota1 + nota2 + nota3) / 3);
+    document.write("A média do aluno é:", media, "<br>", "<br>");
+
+//Verifica se está aprovado
+
+if (media >=7){
+    document.write("O aluno " + aluno + " está aprovado");
+}
+
+else{
+    document.write("O aluno está reprovado");
+}
